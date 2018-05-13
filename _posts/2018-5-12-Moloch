@@ -1,0 +1,27 @@
+---
+layout: post
+title: Rorschachs Journal
+---
+[Moloch][/images/Moloch.jpg]
+
+<br />
+Just so happens that this tool I'm working with is also a villain in one of my favorite comics. So of course I'm going to make the
+reference.  
+
+As with everyday in the military my new task is to create dashboards for Moloch. Essentially creating a quickview that network analysts can
+choose pre-built queries. There is options to save "views" in Moloch, however I see copy pasting the queries to load into the application 
+everytime it's restarted as being too time consuming. I noticed that Moloch utilizes the URI whenever a query is input. The next logical
+step is to write a script to generate URI's to pass to Moloch.
+
+###The Problem  
+The only difficult part is creating the "startTime" and "endTime" parameter since Moloch uses a really odd countdown feature. When 
+startTime = 0, it displays the current time. But, when startTime = 1 the display is a date in 1969. Every subsequent number higher is 
+based in seconds. Originally my thought was creating a script which calculated the time requested in seconds from the current time via:
+
+>CurrentTime - InputTime = UriTime  
+
+However, generating the number of seconds that could span across months seems pretty difficult, especially with varying number of days in
+a month. Might need to take each month and generate a number of seconds and set benchmarks for each year, probably going back the last 5. 
+I found it easiest to get those numbers via trial and error, but we'll see how it turns out.  
+
+I'll post the script on my github. I'll probably call it "Find Jacobi" as a clever reference to The Watchmen.
