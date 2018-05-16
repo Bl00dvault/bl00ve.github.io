@@ -5,6 +5,9 @@ title: First Post
 
 In my first post I want to layout some of the ideas for this site as well as my current work/research projects. Here's where I'm at today:  
 
+>DISCLAIMER - Not trying to be a Riot poser, just a big fan of this color scheme and this image was publically available  
+>Night themes are just a better viewing experience 
+
 ### Projects  
 **vBA Nessus Enrichment Script** - script written in vBA to take multiple Nessus outputs (in CSV), coalesce and enrich the data
      
