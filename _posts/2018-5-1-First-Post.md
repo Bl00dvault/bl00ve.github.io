@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Post
-excerpt_separator: ###
+excerpt_separator: "###"
 ---
 
 In my first post I want to layout some of the ideas for this site as well as my current work/research projects. Here's where I'm at today:  
