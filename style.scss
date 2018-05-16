@@ -173,7 +173,8 @@ img {
 
 .masthead {
   padding: 20px 0;
-  
+  margin: 0px 70px 0px 70px;
+
   @include mobile {
   text-align: center;
   }
@@ -248,7 +249,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 25px;
     color:#CAB5A2;
     text-align: right;
     font-weight: 300;
@@ -288,7 +289,10 @@ nav {
   .comments {
     margin-top: 10px;
   }
-
+  
+  img {
+    padding: 0 38%;
+  }
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
