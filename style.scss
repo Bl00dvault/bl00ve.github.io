@@ -31,8 +31,10 @@ body {
 .page_container {
   margin: 0 auto;
   max-width: 940px;
-  padding: 0 10px;
+  padding: 10px 2rem;
   width: 100%;
+  background: rgba(255,255,255,.1);
+  border-radius: 20px;
 }
 
 .container {
@@ -190,7 +192,6 @@ img {
 
   img {
     border-radius: 5px;
-  }
 }
 
 .site-info {
@@ -262,6 +263,9 @@ nav {
 //
 // .main
 //
+.svg-icons {
+	margin:0 10px;
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -295,6 +299,8 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
+  border: 0;
+  border-top: 1px solid;
 }
 
 footer {
