@@ -17,4 +17,4 @@ permalink: /projects/
 [CVE-Sweeper](https://github.com/Bl00ve/CVE-Sweeper) is a Python script which takes a directory full of Nessus output in CSV format and correlates vulnerabilities to community Snort rules published on their [site](https://www.snort.org/downloads/#rule-downloads).
 
 ## Coming Soon  
-I don't currently have any coding projects in the pipeline. I'm working on my OSCP certification and working on a home lab to work with Security Onion. Stay tuned for more exciting discoveries!
+I don't currently have any coding projects in the pipeline. I'm working on my OSCP certification and on a home lab to work with Security Onion. Stay tuned for more exciting discoveries!
