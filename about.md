@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![Me](/images/me2.png "Work Me")        ![Me2](/images/me1.png "Not Work Me")
+![Me](/images/me2.png "Work Me")        ![Me2](/images/me1.jpg "Not Work Me")
 
 Thomas Blauvelt
 SrA USAF, Cyber Operator 1B4X1
