@@ -10,5 +10,11 @@ permalink: /projects/
 ### Scatter
 [Scatter](https://github.com/Bl00ve/Scatter) is a Powershell script built to distribute and run SCAP Compliance Checker with a bunch of checks put in for dummies to use it.  
 
+### Jacobi 
+[Jacobi](https://github.com/Bl00ve/Jacobi) is a Python script which creates a network monitoring dashboard in conjunction with [Moloch](https://github.com/aol/moloch).  
+
+### CVE-Sweeper 
+[CVE-Sweeper](https://github.com/Bl00ve/CVE-Sweeper) is a Python script which takes a directory full of Nessus output in CSV format and correlates vulnerabilities to community Snort rules published on their [site](https://www.snort.org/downloads/#rule-downloads).
+
 ## Coming Soon  
-Currently working on a project to create network vulnerability query strings to pass into a URL for Moloch Packet Analyzer. I started it in Bash, and it just became too sloppy and difficult. So gonna go back with my original idea of doing it in Python.
+I don't currently have any coding projects in the pipeline. I'm working on my OSCP certification and working on a home lab to work with Security Onion. Stay tuned for more exciting discoveries!
