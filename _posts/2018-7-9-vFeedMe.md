@@ -7,6 +7,7 @@ Just wanted to write down some of my ideas to coincide with my recent discovery 
 
 ## Attack Vectors  
     Tables - map_cve_nmap, combined_vendor_security_patch, map_cve_saint, map_cve_milw0rm, map_cve_exploitdb, map_cve_msf, cwe_capec, capec_db  
+    
 This product would display:  
 - NMAP NSE Scripts - To provide a method for validating vulnerabilities found using NMAP.  
 - Vendor Security Patch - Since most patches include a proof of concept with exploitation, well sometimes at least.  
@@ -17,11 +18,13 @@ This product would display:
 - Common Attack Pattern Enumeration and Classification (CAPEC) - Provides attack vector information based on certain information. Might need to correlate with more information from the CAPEC [site](https://capec.mitre.org/data/index.html).  
 
 ## IDS Indicators  
-    Tables - map_cve_suricata, map_cve_snort
+    Tables - map_cve_suricata, map_cve_snort  
+    
 Don't really need to explain these tables. Both are network vulnerability detection tools which we could use the host vulnerability data to possibly detect nefarious traffic. This is pretty much what my other tool [CVE-Sweeper](https://github.com/Bl00ve/CVE-Sweeper) does so I'll probably retire that in favor of this implementation, or combine the efforts.  
 
 ## Vulnerability Information  
-    Tables - nvd_db, map_cve_iavm, combined_vendor_security_patch, map_cve_certvn, capec_mit, capec_db
+    Tables - nvd_db, map_cve_iavm, combined_vendor_security_patch, map_cve_certvn, capec_mit, capec_db  
+    
 The goal here is to provide a comprehensive vulnerability picture of a customer's network. I'd like to be able to correlate attack vectors with a host's relative position in the network to help prioritze vulnerability mitigations. This is the part I want to try and use machine learning some how to predict maybe where an attack will come from. I'm still trying to think out where I would find the information to learn from. Whether I use previous customer data or something. I'll go further into detail when I get better at the whole concept.  
 
 That's all I have to say about that.
