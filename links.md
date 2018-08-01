@@ -9,6 +9,25 @@ Webster has a dictionary, the farmers have an almanac, the Avengers have a Hulk.
 ...and I have a links page.  
 Mostly for personal reference, but if you find something neat knock yourself out.  
 
+### Machine Learning  
+#### Applications  
+In order of what I think looked cool  
+*** NOTE these applications might not necessarily be utilizing ML, but could be related  
+- [TensorFlow](https://www.tensorflow.org/)  
+- [Neo4j](https://neo4j.com/)  
+- [Keras](https://keras.io/)  
+- [Scapy](https://scapy.net/)  
+- [Kevin Hodges Github](https://github.com/khodges42/)  
+*** NOTE - check out Demosthenes when it's finished and MLSec Notebook  
+- [Ekultek's Github, Soapy Project](https://github.com/ekultek/soapy)  
+
+#### Resources/Books/Smart People
+- [Francois Chollet - Deep Learning with Python](https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438)  
+- [Siraj Raval Youtube Channel](https://youtube.com/channel/UCWN3xxRKmTPmbKwht9FuE5A)  
+- [Dr. Adrian Rosebrock - Deep Learning for Computer Vision with Python](https://coderprog.com/deep-learning-computer-vision-python/)  
+- Quine (the person, idea, etc. need to look at more)  
+- [Threatbutt](https://threatbutt.com)
+
 ### Troubleshooting  
 #### Virtual Box  
 - [https://askubuntu.com/questions/456400/why-cant-i...](https://askubuntu.com/questions/456400/why-cant-i-access-a-shared-folder-from-within-my-virtualbox-machine)  
