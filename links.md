@@ -26,6 +26,7 @@ In order of what I think looked cool
 - [Siraj Raval Youtube Channel](https://youtube.com/channel/UCWN3xxRKmTPmbKwht9FuE5A)  
 - [Dr. Adrian Rosebrock - Deep Learning for Computer Vision with Python](https://coderprog.com/deep-learning-computer-vision-python/)  
 - Quine (the person, idea, etc. need to look at more)  
+- [Kevin Hodge's HOPE Talk on ML and Malware](https://www.pscp.tv/w/1vOxwVPRymbJB)  
 - [Threatbutt](https://threatbutt.com)
 
 ### Troubleshooting  
