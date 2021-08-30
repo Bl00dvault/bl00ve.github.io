@@ -9,6 +9,10 @@ Webster has a dictionary, the farmers have an almanac, the Avengers have a Hulk.
 ...and I have a links page.  
 Mostly for personal reference, but if you find something neat knock yourself out.  
 
+### Links To Research
+- [PrintNightmare](https://blog.cymulate.com/printnightmare-cve/)
+
+
 ### Machine Learning  
 #### Applications  
 In order of what I think looked cool  
