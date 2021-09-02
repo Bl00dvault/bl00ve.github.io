@@ -12,6 +12,7 @@ Mostly for personal reference, but if you find something neat knock yourself out
 ### Links To Research
 - [PrintNightmare](https://blog.cymulate.com/printnightmare-cve/)
 - [Blinding EDR on Windows/ User & Kernel Mode Drivers Walkthrough](https://synzack.github.io/Blinding-EDR-On-Windows/)
+- [Fileless Lateral Movement w/ WMI Event Subscription and Named Pipes](https://github.com/RiccardoAncarani/LiquidSnake)
 
 
 ### Machine Learning  
